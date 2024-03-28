@@ -1,0 +1,136 @@
+
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-colorido-modelo-huellas-pata-perro-o-gato_1017-30662.jpg?size=626&ext=jpg&ga=GA1.1.1319243779.1711411200&semt=ais");
+}
+
+header {
+    background-color: #fffb09;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    width: 100%;
+    z-index: 1000;
+    height: 35px;
+    position: sticky;
+    top: 0;
+}
+
+.formulario {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.formulario h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 30px; /* Aumentar el padding para hacer el botón más grande */
+    background-color: #fffb09;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block; /* Cambiar a bloque para centrar */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #1eff00;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+}
+
+/* Hacer que la barra de navegación se mueva acorde al desplazamiento de la página */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #000000; /* Color de texto negro */
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.nav a {
+    color: #000000; /* Color de texto negro */
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff6600; /* Color azul al hacer hover */
+  }
+
+/* Cambiar las redes sociales a forma de círculos */
+.social-icons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #fffb09;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+

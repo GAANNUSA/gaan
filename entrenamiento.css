@@ -1,0 +1,133 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-align: center;
+  background-color: #ffcaca;
+}
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #ff0084;
+  padding: 10px 0;
+  z-index: 1000;
+  height: 35px; /* Aumenta la altura de la barra de navegación */
+  top: 0; /* Mantener la barra en la parte superior */
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff; /* Color de texto negro */
+  margin-top: 10px;
+	margin-left: 20px;
+}
+
+nav a {
+  color: #ffffff; /* Color de texto negro */
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(0, 0, 0); /* Color azul al hacer hover */
+}
+
+.social-icons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #ff0084;
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #000000;
+}
+
+
+p {
+  font-size: 1.2em;
+  color: #000000; /* Color del texto */
+  line-height: 1.6;
+}
+
+
+.contenedor {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+
+.informacion {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.imagen{
+  margin-top: 100px;
+}
+
+.image {
+  display: flex;
+  justify-content: space-between; /* Espacio entre las imágenes */
+}
+
+.imagen img {
+  width: 350px; /* Ancho deseado para las imágenes */
+  height: 300px; /* Alto deseado para las imágenes */
+  margin-right: 10px; /* Espacio entre las imágenes */
+}
+
+.imagen img:last-child {
+  margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+.lista{
+  text-align: left;
+  font-size: 20px;
+}
+
+.contenedorr {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-top: 20px;
+  }
+
+.tener{
+    text-align: justify;
+}
+
